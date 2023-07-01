@@ -135,6 +135,8 @@ class Electrodomestico{
         }
     }
 
+    this.precioBase += precioFinal;
+    
     return precioFinal;
 
     }

@@ -24,6 +24,7 @@ class Television extends Electrodomestico {
             aumento += 50;
         }
         total = precioFinal + aumento;
+        this.precioBase += total;
         return total;
     }
 }

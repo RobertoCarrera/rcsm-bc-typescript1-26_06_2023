@@ -16,6 +16,7 @@ class Lavadora extends Electrodomestico {
             aumentoPrecio = 50;
         }
         total = precioFinal + aumentoPrecio;
+        this.precioBase += total;
         return total;
     }
 }
